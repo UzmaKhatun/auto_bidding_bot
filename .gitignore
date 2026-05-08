@@ -1,0 +1,31 @@
+# Session folder — contains LinkedIn login
+session/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pycache/
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Debug screenshots — personal data
+debug.png
+search_debug.png
+post_debug.png
+before_submit.png
+after_comment.png
+
+# Environment variables
+.env
+
+# VS Code settings
+.vscode/
+
+# Python egg
+*.egg-info/
+dist/
+build/
