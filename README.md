@@ -52,9 +52,8 @@ auto-bidding-bot/
 ├── login.py             # One time LinkedIn session setup
 ├── requirements.txt     # Python dependencies
 ├── .gitignore           # Ignored files
-├── README.md            # Project documentation
-└── docs/
-    └── architecture.md  # Detailed architecture docs
+└── README.md            # Project documentation
+
 ```
 
 ---
@@ -163,10 +162,10 @@ Playwright opens the post and submits the AI-generated comment.
 
 ## 🗄️ Google Sheets Schema
 
-| post_id | platform | timestamp |
-|---|---|---|
-| 7458413120911462400 | linkedin | 2026-05-08 10:30:00 |
-| 7458107006780915714 | linkedin | 2026-05-08 13:45:00 |
+| post_id | post_url | post_content | platform | comment | timestamp |
+|---|---|---|---|---|---|
+| 7458413120911462400 |https://www.linkedin.com/feed/update/urn:li:activity:7458114866596474369 | We are expanding our team... | linkedin | I'm excited to join... | 2026-05-08 10:30:00 |
+| 7458107006780915714 | https://www.linkedin.com/feed/update/urn:li:activity:745811486568968425 | We are looking for frontend...|linkedin | I have a skills that... | 2026-05-08 13:45:00 |
 
 ---
 
