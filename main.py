@@ -10,16 +10,6 @@ def search_posts_route():
     results = search_posts()
     return results
 
-# Endpoint 2 — n8n calls this to post comment
-# class PostRequest(BaseModel):
-#     post_url: str
-#     comment: str
-
-# @app.post("/post-comment")
-# def post_comment_route(data: PostRequest):
-#     result = post_comment(data.post_url, data.comment)
-#     return result
-
 class PostRequest(BaseModel):
     post_url: str
     comment: str
