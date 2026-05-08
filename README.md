@@ -244,6 +244,11 @@ uvicorn main:app --reload --port 8000
 
 Uzma Khatun
 
-!(Portfolio)[https://portfolio-uzmakhatun.netlify.app/]
+📧 uzmakhatun0205@gmail.com  
+🔗 [GitHub](https://github.com/UzmaKhatun)
+🔗 [LinkedIn](https://www.linkedin.com/in/uzma-khatun-88b990334/)
+🔗 [Portfolio](https://portfolio-uzmakhatun.netlify.app/)
 
-(Portfolio)![https://portfolio-uzmakhatun.netlify.app/]
+---
+
+Made with 💖
